@@ -13,6 +13,7 @@ describe("Stack", () => {
     test("adds an element successfully", () => {
       expect(stack.push('Jane Doe')).toContain('Jane Doe');
     });
+  });
 
   
   describe("pop", () => {
@@ -55,4 +56,4 @@ describe("Stack", () => {
     });
   });
 });
-});
+
