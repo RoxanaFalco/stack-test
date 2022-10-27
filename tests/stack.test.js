@@ -16,8 +16,9 @@ describe("Stack", () => {
   describe("push", () => {
     test("adds an element successfully", () => {
       expect(stack.push('Jane Doe')).toContain('Jane Doe');
-    });
-
+    })
+  });
+  
   
   describe("pop", () => {
     test("remove an item from the stack", () => {
@@ -59,4 +60,4 @@ describe("Stack", () => {
     });
   });
 });
-});
+
