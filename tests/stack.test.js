@@ -2,9 +2,6 @@ import Stack from "../src/stack";
 
 /* Jest Cheatsheet https://github.com/sapegin/jest-cheat-sheet */
 
-/* hice un cambio cualquiera marzo 2023 */
-
-
 let stack;
 
 describe("Stack", () => {
